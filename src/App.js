@@ -483,7 +483,7 @@ function App() {
                     <CardMedia
                       component="img" // Specifies that the media component is an image
                       height="auto"
-                      image="./Cohorts.png"
+                      image={process.env.PUBLIC_URL +"/Cohorts.png"}
                     />
                   </Grid>
 
@@ -594,7 +594,7 @@ function App() {
                           <CardMedia
                             component="img" // Specifies that the media component is an image
                             height="auto"
-                            image="./Vector.png"
+                            image={process.env.PUBLIC_URL +"/Vector.png"}
                           />
                         </Grid>
                       </CardContent>
